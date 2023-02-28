@@ -1,0 +1,133 @@
+/*C A P A    D E     P R E S E N T A C I O N*/
+
+/*WEB de referencia de estilos CSS CheatSheet*/
+/*htmlcheatsheet.com/css */
+
+/*WEB de referencia de CSS*/
+/*w3schools.com/css*/
+
+/*Tipografias Fuentes*/
+/*fonts.google.com*/
+
+/*TODOS LOS ELEMENTOS HTML PUEDEN SER CONSIDERADOS COMO CAJAS (BOX MODEL)*/
+/*Margin - Border - Padding - Content*/
+
+/* * = EL aserisco me dice que se aplica a todos los elementos. */
+/**
+*{
+    color: blue;
+}
+*/
+
+/* p, span{
+    color: red;
+    width: 300px;
+} */
+
+header{
+    background-color: rgba(53, 49, 49, 0.281);
+    color: grey;
+}
+
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+footer{
+    background-color: slategrey;
+}
+h1{    
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    padding: 5px 10px 5px 10px;
+    
+    font-weight: bold;
+    color: gray;
+  
+}
+
+h2{    
+    font-family: 'Roboto', sans-serif;      
+    font-weight: bold;
+    color: gray;  
+    font-size: 23px;
+}
+
+#myTit1{    
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px 5px 10px;    
+    font-weight: bold;
+    color:grey;
+    font-size: 20px;
+}
+
+h4{    
+    font-family: 'Roboto', sans-serif;       
+    font-weight: bold;
+    font-size:"12px";
+    color: gray;   
+}
+
+h5{    
+    font-family: 'Roboto', sans-serif;     
+    font-weight: bold;
+    color: grey;
+    font-size: smaller  ;
+    
+}
+
+p{    
+    font-family: 'Roboto', sans-serif;         
+    color: grey;
+    font-size: smaller  ;    
+}
+
+#myPar1{    
+    font-family: 'Roboto', sans-serif;         
+    color: grey;
+    font-size: smaller  ; 
+    margin-left: 15px;   
+}
+
+#myPar2{    
+    font-family: 'Roboto', sans-serif;         
+    color: grey;
+    font-size: smaller  ; 
+    margin: 2px 2px 2px 2px;  
+}
+
+#myParPie1{    
+    font-family: 'Roboto', sans-serif;         
+    color: whitesmoke;
+    font-size: smaller  ;         
+    margin: 2px 2px 2px 2px;
+}
+
+section{   
+    width: 800px; 
+    border: 15px solid green;
+    margin: 20px;
+    padding: 50px ;
+}
+
+
+/*Definir clases - Se recomienda utilizar clases / ID*/
+/* .estaesmiclase {
+    font-weight: bold;
+    color: lightblue;
+}
+
+section h1{
+    font-weight: 500;
+    color: rgb(101, 226, 43);
+} */
